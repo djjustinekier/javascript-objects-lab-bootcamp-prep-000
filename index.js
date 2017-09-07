@@ -9,7 +9,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 function updateObjectWithKeyAndValue(object, key, value) {
   var newObject = object;
-  newObject[Key] = value;
+  newObject[key] = value;
   return newObject;
 
 }
