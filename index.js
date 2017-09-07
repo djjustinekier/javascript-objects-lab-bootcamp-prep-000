@@ -8,9 +8,9 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 }
 function updateObjectWithKeyAndValue(object, key, value) {
-  var newKey = key;
-  object[newKey] = value;
-  return object;
+  var newObject = object;
+  newObject[Key] = value;
+  return newObject;
 
 }
 
